@@ -16,7 +16,8 @@ Feature: As a user I want to filter my search result so I can narrow down to wha
     When I search for 'camera'
     And I apply filter for 'Canon' 'Brand'
     And I apply another filter for 'Compact' 'Camera Type'
-    Then I verify the total search results for the applied filter
+    Then I verify multiple filters is applied
+    And I verify the total search results for the applied filter
 
   @Test-5
   Scenario: Verify user can remove all applied filters

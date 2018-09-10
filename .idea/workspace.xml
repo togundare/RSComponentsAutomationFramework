@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d757a3a0-db76-4871-bfd0-37d6e911a350" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/SearchFilters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/SearchFilters.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,18 +19,18 @@
     <session id="1091326578">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="9" />
+          <entry key="project.open.time.1" value="10" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
           <entry key="feature" value="11" />
-          <entry key="java" value="79" />
+          <entry key="java" value="80" />
           <entry key="me" value="3" />
           <entry key="png" value="3" />
           <entry key="properties" value="9" />
@@ -38,7 +42,7 @@
           <entry key="CLASS" value="3" />
           <entry key="Cucumber" value="11" />
           <entry key="Image" value="3" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="80" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="9" />
           <entry key="XML" value="4" />
@@ -46,8 +50,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="feature" value="1346" />
-          <entry key="java" value="19240" />
+          <entry key="feature" value="1398" />
+          <entry key="java" value="19354" />
           <entry key="me" value="1107" />
           <entry key="properties" value="974" />
           <entry key="xml" value="28" />
@@ -55,8 +59,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Cucumber" value="1346" />
-          <entry key="JAVA" value="19240" />
+          <entry key="Cucumber" value="1398" />
+          <entry key="JAVA" value="19354" />
           <entry key="PLAIN_TEXT" value="1107" />
           <entry key="Properties" value="974" />
           <entry key="XML" value="28" />
@@ -66,20 +70,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="175">
+              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.me">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -108,10 +112,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1088">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="124">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/searchPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4933#4934#0" expanded="true" />
+                <element signature="e#5001#5002#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,11 +190,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/frameworkHelpers/pageObjectsUtility.java" />
         <option value="$PROJECT_DIR$/src/main/resources/properties/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/models/orderModel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/frameworkHelpers/webDriverHelper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/searchPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/TestNGSuiteRun.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/runners/RunTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -184,6 +199,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/checkoutSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/basketPage.java" />
         <option value="$PROJECT_DIR$/README.me" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/searchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java" />
       </list>
     </option>
   </component>
@@ -209,45 +227,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -374,10 +354,48 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="RSComponentsAutomationFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="RSComponentsAutomationFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="framework" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536561424370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536577424851" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AutomationTests" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
@@ -400,7 +418,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: Checkout">
+  <component name="RunManager" selected="Cucumber java.Feature: SearchFilters">
     <configuration name="Feature: Checkout" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Checkout.feature" />
@@ -488,10 +506,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.Feature: SearchFilters" />
         <item itemvalue="Cucumber java.Feature: Checkout" />
         <item itemvalue="JUnit.RunTests" />
         <item itemvalue="TestNG.C:/Users/togundare/Documents/Project/RSComponentsAutomationFramework/src/test/resources/TestNGSuiteRun.xml" />
-        <item itemvalue="Cucumber java.Feature: SearchFilters" />
         <item itemvalue="Cucumber java.Feature: Homepage" />
       </list>
     </recent_temporary>
@@ -510,27 +528,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__SearchFilters - 2018.09.10 at 02h 44m 17s.xml">
-      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__SearchFilters - 2018.09.10 at 02h 47m 00s.xml">
-      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="C__Users_togundare_Documents_Project_RSComponentsAutomationFramework_src_test_resources_TestNGSuiteRun_xml - 2018.09.10 at 03h 00m 38s.xml">
-      <configuration name="C:/Users/togundare/Documents/Project/RSComponentsAutomationFramework/src/test/resources/TestNGSuiteRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_togundare_Documents_Project_RSComponentsAutomationFramework_src_test_resources_TestNGSuiteRun_xml - 2018.09.10 at 03h 01m 52s.xml">
-      <configuration name="C:/Users/togundare/Documents/Project/RSComponentsAutomationFramework/src/test/resources/TestNGSuiteRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_togundare_Documents_Project_RSComponentsAutomationFramework_src_test_resources_TestNGSuiteRun_xml - 2018.09.10 at 03h 04m 05s.xml">
-      <configuration name="C:/Users/togundare/Documents/Project/RSComponentsAutomationFramework/src/test/resources/TestNGSuiteRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="C__Users_togundare_Documents_Project_RSComponentsAutomationFramework_src_test_resources_TestNGSuiteRun_xml - 2018.09.10 at 03h 07m 09s.xml">
-      <configuration name="C:/Users/togundare/Documents/Project/RSComponentsAutomationFramework/src/test/resources/TestNGSuiteRun.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="RunTests - 2018.09.10 at 03h 13m 53s.xml">
-      <configuration name="RunTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Feature__Checkout - 2018.09.10 at 07h 29m 12s.xml">
       <configuration name="Feature: Checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -540,12 +537,33 @@
     <history-entry file="Feature__Checkout - 2018.09.10 at 07h 34m 41s.xml">
       <configuration name="Feature: Checkout" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 11h 48m 20s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 11h 51m 05s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 11h 56m 59s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 11h 58m 18s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 12h 00m 10s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 12h 01m 44s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__SearchFilters - 2018.09.10 at 12h 03m 19s.xml">
+      <configuration name="Feature: SearchFilters" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3207262" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -710,16 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/searchPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1479">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/frameworkHelpers/pageObjectsUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -737,30 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1088">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/checkoutSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -775,6 +759,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.me">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/basketPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -785,10 +776,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.me">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Checkout.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/pageObjects/searchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4933#4934#0" expanded="true" />
+            <element signature="e#5001#5002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/RSComponentsAutomation/framework/stepsDefinitions/searchSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/SearchFilters.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>

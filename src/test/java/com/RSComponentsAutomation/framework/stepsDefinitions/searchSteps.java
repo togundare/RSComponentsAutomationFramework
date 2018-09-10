@@ -43,7 +43,13 @@ public class searchSteps {
         assertTrue(SearchPage.getNumberOfFilteredResults().endsWith(SearchFiltersModel.getNumberOfProductFiltered()+" products"));
     }
 
-    @Then("^I verify filter is present in filters breadcrumbs$")
+    @Then("^I verify multiple filters is applied$")
+    public void iVerifyMultipleFiltersIsApplied(){
+        SearchPage.timeUnitWait(2);
+        assertTrue(SearchPage.getAppliedFilters().size()>1);
+    }
+
+    @And("^I verify filter is present in filters breadcrumbs$")
     public void iVerifyFilterIsApplied(){
         String appliedFilter = SearchFiltersModel.getFilterSubCategory();
         assertTrue(SearchPage.isFilterApplied(appliedFilter));
