@@ -3,8 +3,6 @@ package com.RSComponentsAutomation.framework.pageObjects;
 import com.RSComponentsAutomation.framework.frameworkHelpers.pageObjectsUtility;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-
-import java.security.SecureRandom;
 import java.text.DecimalFormat;
 import java.util.List;
 

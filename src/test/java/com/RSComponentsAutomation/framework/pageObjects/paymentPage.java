@@ -36,7 +36,7 @@ public class paymentPage extends pageObjectsUtility {
 
     public List<WebElement> allGuestPaymentTypes(){ return visibilityOfAllElementsLocatedBy(guestPaymentTypes); }
 
-    public void enterCVV(String paymentType) throws IOException {
+    public void enterCVV() throws IOException {
         waitClearAndEnterText(paymentCVVbox).sendKeys(getDataFromLocale("allcards.cvv"));
     }
 

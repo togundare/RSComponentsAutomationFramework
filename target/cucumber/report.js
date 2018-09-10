@@ -63,7 +63,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "checkoutSteps.iSearchforItem(String)"
+  "location": "checkoutSteps.iSearchForItem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -225,7 +225,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "checkoutSteps.iSearchforItem(String)"
+  "location": "checkoutSteps.iSearchForItem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -391,7 +391,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "checkoutSteps.iSearchforItem(String)"
+  "location": "checkoutSteps.iSearchForItem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -473,7 +473,7 @@ formatter.step({
   "keyword": "When "
 });
 formatter.match({
-  "location": "checkoutSteps.iSearchforItem(String)"
+  "location": "checkoutSteps.iSearchForItem(String)"
 });
 formatter.result({
   "status": "passed"
@@ -545,7 +545,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "checkoutSteps.iSearchforItem(String)"
+  "location": "checkoutSteps.iSearchForItem(String)"
 });
 formatter.result({
   "status": "passed"

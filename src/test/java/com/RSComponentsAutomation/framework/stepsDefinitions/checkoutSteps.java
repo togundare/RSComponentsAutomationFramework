@@ -8,7 +8,6 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriverException;
@@ -65,13 +64,13 @@ public class checkoutSteps {
             //HomePage.waitForSurveyPopupAndClose();
             BasketPage.clickClearBasketBtn();
             BasketPage.clickConfirmClearBasketBox();
-            Thread.sleep(3000);
+            BasketPage.timeUnitWait(3);
             BasketPage.clickReturnToHome();
         }
     }
 
     @When("^I search for '(.*)'$")
-    public void iSearchforItem(String searchTerm){
+    public void iSearchForItem(String searchTerm){
         HomePage.makeASearch(searchTerm);
     }
 
@@ -107,15 +106,14 @@ public class checkoutSteps {
     }
 
     @And("^I proceed to checkout$")
-    public void iProceedToCheckout() throws IOException, InterruptedException {
-        BasketPage.clickCheckoutBtn();
-    }
+    public void iProceedToCheckout() { BasketPage.clickCheckoutBtn(); }
+
     @And("^I proceed to checkout as guest$")
     public void iProceedToCheckoutAsGuest() throws IOException, InterruptedException {
         BasketPage.clickCheckoutBtn();
         BasketPage.enterGuestCheckoutEmail(BasketPage.getDataFromLocale("email.guest"));
         BasketPage.clickGuestCheckoutBtn();
-        Thread.sleep(3000);
+        BasketPage.timeUnitWait(3);
     }
 
     @And("^I verify saved address is present$")
@@ -126,7 +124,6 @@ public class checkoutSteps {
     @And("^I add a new delivery address$")
     public void iAddANewDeliveryAddress(){
         DeliveryAddressPage.clickAddAddressBtn();
-       // DeliveryAddressPage.switchToActiveElement();
         DeliveryAddressPage.enterAddressInformation();
     }
     @And("^I proceed to payment$")
@@ -137,9 +134,9 @@ public class checkoutSteps {
     @And("^I select '(.*)' from saved cards$")
     public void iSelectFromSavedCards(String paymentType) throws IOException {
         PaymentPage.selectAPaymentType(paymentType);
-        PaymentPage.enterCVV(paymentType);
-        PaymentPage.startActions().sendKeys(Keys.ENTER);
+        PaymentPage.enterCVV();
     }
+
     @And("^I proceed to order review$")
     public void iProceedToOrderReview(){
         PaymentPage.clickOrderPreviewBtn();

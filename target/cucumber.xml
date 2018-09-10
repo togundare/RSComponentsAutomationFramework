@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="195.349349">
-<testcase classname="As a user I want to complete order on RS Components website" name="Create order as a registered customer" time="80.871103">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="196.318436">
+<testcase classname="As a user I want to complete order on RS Components website" name="Create order as a registered customer" time="73.302692">
 <system-out><![CDATA[Given RS Components homepage is displayed...................................passed
 And I am logged in as a customer............................................passed
 And my basket is clear......................................................passed
@@ -17,7 +17,7 @@ Then I verify order review page is displayed................................pass
 And I verify order information is correct...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to complete order on RS Components website" name="Create order as a guest customer" time="69.528922">
+<testcase classname="As a user I want to complete order on RS Components website" name="Create order as a guest customer" time="74.366448">
 <system-out><![CDATA[Given RS Components homepage is displayed...................................passed
 And I am a guest customer...................................................passed
 And my basket is clear......................................................passed
@@ -35,7 +35,7 @@ Then I verify order review page is displayed................................pass
 And I verify order information is correct...................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can apply single filter to search results" time="13.247135">
+<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can apply single filter to search results" time="14.557217">
 <system-out><![CDATA[Given RS Components homepage is displayed...................................passed
 When I search for 'monitors'................................................passed
 And I apply filter for 'Samsung' 'Brand'....................................passed
@@ -44,7 +44,7 @@ And I verify displayed results are correct..................................pass
 And I verify the total search results for the applied filter................passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can apply multiple filters to search results" time="15.637056">
+<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can apply multiple filters to search results" time="17.194982">
 <system-out><![CDATA[Given RS Components homepage is displayed...................................passed
 When I search for 'camera'..................................................passed
 And I apply filter for 'Canon' 'Brand'......................................passed
@@ -52,7 +52,7 @@ And I apply another filter for 'Compact' 'Camera Type'......................pass
 Then I verify the total search results for the applied filter...............passed
 ]]></system-out>
 </testcase>
-<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can remove all applied filters" time="16.065133">
+<testcase classname="As a user I want to filter my search result so I can narrow down to what suits my needs" name="Verify user can remove all applied filters" time="16.897097">
 <system-out><![CDATA[Given RS Components homepage is displayed...................................passed
 And I search for 'clock'....................................................passed
 And I apply filter for 'Analogue' 'Display'.................................passed
