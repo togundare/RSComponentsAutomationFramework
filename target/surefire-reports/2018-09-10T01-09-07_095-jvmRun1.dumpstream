@@ -1,0 +1,13 @@
+# Created on 2018-09-10T01:10:08.521
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2018-09-10T01:10:09.049
+Unexpected IOException with stream:     [32mWhen [0m[32mI search for '[0m[32m[1mclock[0m[32m'[0m                         [90m# checkoutSteps.iSearchforItem(String)[0m
+
+
