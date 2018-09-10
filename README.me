@@ -23,12 +23,12 @@ To run test via command prompt
 5. Do "mvn install test" (to run all tests)
 
 
-SOME TECH DEBT
+TECH DEBT
 -----------------------------------
 
 1. Add test for more than one product in bag or end to end checkout
 2. Verify pagination on search results page
 3. Move screenshot grabber to frameworkHelper folder and add screenshot cleaner before new test runs
-4. Unexpected survey popup is currently managed in webDriver wait at the expense of some runtime performance. Need to use listener to manage that more dynamically.
+4. Random survey popup is currently managed in elements webDriver wait. Need to use some sort of listener to manage that more dynamically and will improve tests runtime.
 
 
